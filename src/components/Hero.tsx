@@ -28,13 +28,13 @@ const Hero: React.FC = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-8 justify-center lg:justify-start">
-              <a href="https://superprofile.bio/vp/2QZyn8Dq" target="_blank" rel="noopener noreferrer">
-              <button className="group bg-gradient-to-r from-amber-600 to-orange-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center">
+              <a href="https://superprofile.bio/vp/2QZyn8Dq" target="_blank" rel="noopener noreferrer" className="w-full sm:w-fit">
+              <button className="group bg-gradient-to-r from-amber-600 to-orange-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center w-full sm:w-fit">
                 Get Your Tracker Now
                 <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" />
               </button>
               </a>
-              <button className="border-2 border-amber-600 text-amber-600 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:bg-amber-50 transition-colors flex items-center justify-center">
+              <button className="border-2 border-amber-600 text-amber-600 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:bg-amber-50 transition-colors flex items-center justify-center w-full sm:w-fit">
                 <Download className="mr-2 w-4 h-4 sm:w-5 sm:h-5" />
                 See Preview
               </button>
