@@ -2,6 +2,13 @@ import React from 'react';
 import { ArrowRight, Star, Download } from 'lucide-react';
 
 const Hero: React.FC = () => {
+  // Scroll to features section
+  const handlePreviewClick = () => {
+    const el = document.getElementById('features');
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <section className="pt-32 pb-16 bg-gradient-to-br from-amber-50 via-cream-50 to-orange-50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -34,7 +41,10 @@ const Hero: React.FC = () => {
                 <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" />
               </button>
               </a>
-              <button className="border-2 border-amber-600 text-amber-600 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:bg-amber-50 transition-colors flex items-center justify-center w-full sm:w-fit">
+              <button 
+                className="border-2 border-amber-600 text-amber-600 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:bg-amber-50 transition-colors flex items-center justify-center w-full sm:w-fit"
+                onClick={handlePreviewClick}
+              >
                 <Download className="mr-2 w-4 h-4 sm:w-5 sm:h-5" />
                 See Preview
               </button>
