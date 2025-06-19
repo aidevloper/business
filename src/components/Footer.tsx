@@ -86,7 +86,7 @@ const Footer: React.FC = () => {
                 className="flex items-center space-x-2 text-gray-300 hover:text-amber-400 transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                <span className="text-sm">support@businesstracker.com</span>
+                <span className="text-sm">birzcrown@gmail.com</span>
               </a>
             </div>
           </div>
