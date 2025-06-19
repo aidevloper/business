@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Navbar from './components/Navbar';
 import StickyOfferBar from './components/StickyOfferBar';
 import Hero from './components/Hero';
@@ -56,7 +56,7 @@ function App() {
       <div id="how-it-works">
         <HowItWorks />
       </div>
-      <div id="screenshots">
+      <div id="inside-the-tracker">
         <Screenshots />
       </div>
       <div id="why-choose">
