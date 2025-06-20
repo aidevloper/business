@@ -83,14 +83,14 @@ const WhatsIncluded: React.FC = () => {
               Total Value: <span className="text-gray-400 line-through">${totalValue}</span>
             </h3>
             <div className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-orange-500 mb-4">
-              Your Price: Only ₹499
+              Your Price: Only ₹299
             </div>
             <p className="text-xl text-gray-600 mb-6">
               <span className="font-bold text-green-600">Save 94%</span> - Limited time offer!
             </p>
             <a href="https://superprofile.bio/vp/2QZyn8Dq" target="_blank" rel="noopener noreferrer">
             <button className="bg-gradient-to-r from-amber-600 to-orange-500 text-white px-12 py-4 rounded-full font-bold text-xl hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
-              Get Everything Now - ₹499
+              Get Everything Now - ₹299
             </button>
             </a>
             <div className="mt-4 text-sm text-gray-500">
