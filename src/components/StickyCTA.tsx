@@ -42,7 +42,7 @@ const StickyCTA: React.FC = () => {
           </div>
           
           <div className="mb-3">
-            <div className="text-2xl sm:text-3xl font-bold">Only ₹499</div>
+            <div className="text-2xl sm:text-3xl font-bold">Only ₹299</div>
             <div className="text-sm opacity-90">
               <span className="line-through">₹999</span> Save 70%
             </div>
